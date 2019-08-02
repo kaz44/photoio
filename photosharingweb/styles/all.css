@@ -1,0 +1,359 @@
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+a{
+  color:black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  text-decoration: none;
+}
+
+a:hover {
+  color:#78e6cf;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.newfont {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.p2{
+  font-size: 17px;
+}
+
+.lesspad {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+
+.morepad {
+  padding-top: 10%;
+}
+
+
+form ul {
+  list-style: none;
+}
+
+form li {
+  margin: 5px;
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.white{
+  color:white;
+}
+
+h3 {
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+.cat {
+  color: #78e6cf;
+  font-weight:bold;
+}
+
+article p {
+  text-align: justify;
+}
+
+header {
+  padding: 30px 0 30px 0;
+  text-align: center;
+      /* padding-top: 0; */
+      width: 100%;
+      /* height:40%; */
+      /* http://www.4usky.com/download/164919023.html */
+      background-image:url("../documents/waves2.jpg");
+      /* background-size:100% 100%; */
+      /* height:300px; */
+}
+
+header #title {
+  padding: 10px;
+}
+
+#menu {
+  display: inline;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  margin: 0;
+  padding: 10px;
+  display: inline;
+}
+
+footer {
+  position: fixed;
+  clear:both;
+  bottom: 0;
+  left:0;
+  width: 100%;
+}
+
+.footerbgcolor{
+  background-color:white;
+}
+
+.smallicon{
+  height:20px;
+  width:20px;
+}
+
+body {
+  position:relative;
+  margin: 0 auto;
+  min-height:100%;
+
+}
+
+#body{
+  padding:10px;
+  padding-bottom: 40px;
+}
+
+#bg {
+  /* Source: (original: Kathy Zhang)
+  Picture I took in California on vacation */
+  background-image: url("../images/swan1.jpg");
+  background-size: 1200px 900px;
+  height: 500px;
+  background-color: rgba(black, 0.5);
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+.pic {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.padtop{
+  padding-top:20px;
+}
+
+.padleft{
+  padding-left: 20%;
+}
+
+.padright{
+  padding-right: 45%;
+}
+
+.padmoreleft{
+  padding-left: 35%;
+}
+
+.biggerfont {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.squarepic {
+  padding: 30px;
+  height: 280px;
+  width: 200px;
+}
+
+.bigpic {
+  padding: 30px;
+  height: 650px;
+  width: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+.current {
+  color:#78e6cf;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.margins {
+  margin-left: 180px;
+  margin-right:180px;
+}
+
+.square {
+  padding-left: 100px;
+  height:450px;
+  width:300px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.form_error {
+  color: red;
+}
+
+.divdisplay {
+  display:inline-block;
+}
+
+.divdisplayimg {
+  display:inline-block;
+  vertical-align: top;
+}
+
+.container{
+  text-align:center;
+}
+
+.contain {
+  position: relative;
+  width: 60%;
+}
+
+.contain:hover .overlay{
+  opacity: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  text-align: center;
+  transition: .4s ease;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.contain:hover .image {
+  opacity: 0.5;
+}
+
+.contain:hover .middle {
+  opacity: .9;
+}
+
+.text {
+  background-color: #78e6cf;
+  color: white;
+  font-size: 14px;
+  padding: 16px 32px;
+}
+
+.floatr {
+  float:right;
+}
+
+.centeredimg{
+  display:inline-block;
+  padding:15px;
+}
+
+.nostyle{
+  text-decoration: none;
+}
+
+.col-25 {
+  float: left;
+  width: 55%;
+  display:block;
+}
+
+.col-50 {
+  float: left;
+  width: 82%;
+  display:block;
+}
+
+.col-75 {
+  float: left;
+  width: 100%;
+  display:inline-block;
+}
+
+input[type=text] {
+  width: 30%;
+  /* padding: 12px; */
+  resize: vertical;
+  font-size:12pt;
+}
+
+textarea {
+  margin-top: 8px;
+  height:50px;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  padding:12px;
+  font-size:14px;
+  resize:none;
+}
+
+input[type=submit]{
+  /* padding-top: 20px; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 5%;
+  margin-top: 20px;
+  font-size:12px;
+}
+
+.inputerror {
+  outline: solid red;
+}
+
+.column {
+  float: left;
+  width: 63%;
+  padding: 10px;
+  height: 0px;
+  margin-right:auto;
+  margin-left:auto;
+  padding:2px;
+}
+
+.column2 {
+  float: right;
+  width: 60%;
+  padding: 50px;
+  height: 300px;
+  margin-right:auto;
+  margin-left:auto;
+}
